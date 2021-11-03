@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="UTF-8">
+	<meta lang="es">
 <style>
 	* {	margin: 0;
 		padding: 0;
@@ -13,17 +15,21 @@
 	}
 	.contenedor {
 		display: flex;
-		justify-content: center;
+		flex-direction: column;
+		justify-content: space-around;
 		align-items: center;
 		height: 200px;
-		border: 1px solid red;
+		// border: 1px solid red;
 		
 		
 		}
 	.cajacentral {
+		width:50%;
 		flex: 1;
-		border: 3px solid green;
-		
+		margin: auto 0px;
+		// border: 3px solid green;
+		border-left: 5px solid grey;
+		padding-left: 10px;
 	}
 </style>
 </head>
@@ -31,8 +37,18 @@
 
 	<div class="contenedor">
 		<div class="cajacentral">
-			<h1>Oscoder's codelegas</h1>
-			<a src="#">Próximamente</a>
+			<h1>Oscoder's codelegas.</h1>
+			<a src="#">Próximamente.</a>
+		
+		</div>
+		<div lang="en" class="cajacentral">
+			<h1>Oscoder's code site.</h1>
+			<a src="#">Soon.</a>
+		
+		</div>
+		<div lang="en" class="cajacentral">
+			<h1>Oscoder's code site.</h1>
+			<a src="#">Soon.</a>
 		
 		</div>
 	</div>
